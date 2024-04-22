@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ai Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header section here  -->
+    <header class="header">
+      <div class="header__container">
+        <a href="./index.html" id="header__logo"><i class="fas fa-robot"></i>AI</a>
+        <div class="header__toggle" id="header-mobile-menu">
+          <span class="hamBar"></span> <span class="hamBar"></span>
+          <span class="hamBar"></span>
+        </div>
+        <ul class="header__menu">
+          <li class="header__item">
+            <a href="./index.html" class="header__links">Home</a>
+          </li>
+          <li class="header__item">
+            <a href="./test-1.html" class="header__links">RealWorld</a>
+          </li>
+          <li class="header__item">
+            <a href="./test-2.html" class="header__links">Ethics</a>
+          </li>
+          <li class="header__item">
+            <a href="./review/index.php" class="header__links">Review</a>
+          </li>
+          <li class="header__btn"><a href="quiz.html" class="button">QUIZ</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- header section here  -->
+
+    <!-- Hero Section -->
+    <div class="heroMain">
+      <div class="heroContainer">
+        <div class="heroContent">
+          <h1>Take The Quiz!</h1>
+         </div>
+         <div class="heroContent">
+          <p class="largeText">A quick quiz to test your knowledge about Artificial Intelligence!</p>
+         </div>
+    </div>
+    <!-- hero section ends here  -->
+
+    <!-- quiz section  -->
+    <div class="container">
+        
+        <!-- Question 1 -->
+        <div class="question active" id="question1">
+          <p>1. What is the primary goal of Artificial Intelligence (AI)?</p>
+          <div class="options">
+            <label><input type="radio" name="q1" value="a"> To mimic human behavior</label>
+            <label><input type="radio" name="q1" value="b"> To automate tasks</label>
+            <label><input type="radio" name="q1" value="c"> To understand human emotions</label>
+            <label><input type="radio" name="q1" value="d"> To develop self-awareness</label>
+          </div>
+        </div>
+        <!-- Question 2 -->
+        <div class="question" id="question2">
+          <p>2. Which of the following is an example of Narrow AI?</p>
+          <div class="options">
+            <label><input type="radio" name="q2" value="a"> Self-driving cars</label>
+            <label><input type="radio" name="q2" value="b"> Human-like robots</label>
+            <label><input type="radio" name="q2" value="c"> General-purpose intelligent systems</label>
+            <label><input type="radio" name="q2" value="d"> Virtual personal assistants</label>
+          </div>
+        </div>
+        <!-- Question 3 -->
+        <div class="question" id="question3">
+          <p>3. What is the term used to describe AI's ability to improve performance on a task through experience?</p>
+          <div class="options">
+            <label><input type="radio" name="q3" value="a"> Machine learning</label>
+            <label><input type="radio" name="q3" value="b"> Deep learning</label>
+            <label><input type="radio" name="q3" value="c"> Reinforcement learning</label>
+            <label><input type="radio" name="q3" value="d"> Natural language processing</label>
+          </div>
+        </div>
+        <!-- Question 4 -->
+        <div class="question" id="question4">
+            <p>4. Which AI technique involves training a model on labeled data with input-output pairs?</p>
+            <div class="options">
+              <label><input type="radio" name="q4" value="a"> Unsupervised learning</label>
+              <label><input type="radio" name="q4" value="b"> Reinforcement learning</label>
+              <label><input type="radio" name="q4" value="c"> Supervised learning</label>
+              <label><input type="radio" name="q4" value="d"> Semi-supervised learning</label>
+            </div>
+          </div>
+        <!-- Question 5 -->
+        <div class="question" id="question5">
+            <p>5. Which industry commonly uses AI for fraud detection and prevention?</p>
+            <div class="options">
+              <label><input type="radio" name="q5" value="a"> Healthcare</label>
+              <label><input type="radio" name="q5" value="b"> Finance</label>
+              <label><input type="radio" name="q5" value="c"> Retail</label>
+              <label><input type="radio" name="q5" value="d"> Transportation</label>
+            </div>
+          </div>
+        <!-- Question 6 -->
+        <div class="question" id="question6">
+            <p>6. What is the name for AI systems that can understand and generate human-like text?</p>
+            <div class="options">
+              <label><input type="radio" name="q6" value="a"> Natural language processing</label>
+              <label><input type="radio" name="q6" value="b"> Machine learning</label>
+              <label><input type="radio" name="q6" value="c"> Speech recognition</label>
+              <label><input type="radio" name="q6" value="d"> Computer vision</label>
+            </div>
+          </div>
+        <!-- Question 7 -->
+        <div class="question" id="question7">
+            <p>7. What is the term for the ethical principles and guidelines governing AI development and deployment?</p>
+            <div class="options">
+              <label><input type="radio" name="q7" value="a"> AI ethics</label>
+              <label><input type="radio" name="q7" value="b"> Algorithmic fairness</label>
+              <label><input type="radio" name="q7" value="c"> Autonomous governance</label>
+              <label><input type="radio" name="q7" value="d"> Data privacy</label>
+            </div>
+          </div>
+        <!-- Question 8 -->
+        <div class="question" id="question8">
+            <p>8. Which AI application analyzes patterns in large datasets to make predictions and decisions?</p>
+            <div class="options">
+              <label><input type="radio" name="q8" value="a"> Predictive maintenance</label>
+              <label><input type="radio" name="q8" value="b"> Image recognition</label>
+              <label><input type="radio" name="q8" value="c"> Recommendation systems</label>
+              <label><input type="radio" name="q8" value="d">  Big data analytics</label>
+            </div>
+          </div>
+        <!-- Question 9 -->
+        <div class="question" id="question9">
+            <p>9. What type of AI is capable of understanding, learning, and applying knowledge across various tasks and domains?</p>
+            <div class="options">
+              <label><input type="radio" name="q9" value="a"> Narrow AI</label>
+              <label><input type="radio" name="q9" value="b"> Weak AI</label>
+              <label><input type="radio" name="q9" value="c"> Strong AI</label>
+              <label><input type="radio" name="q9" value="d"> Artificial General Intelligence (AGI)</label>
+            </div>
+          </div>
+        <!-- Question 10 -->
+        <div class="question" id="question10">
+            <p>10. Which company pioneered the development of self-driving cars using AI technology?</p>
+            <div class="options">
+              <label><input type="radio" name="q10" value="a"> Tesla</label>
+              <label><input type="radio" name="q10" value="b">Google (Waymo)</label>
+              <label><input type="radio" name="q10" value="c"> Uber</label>
+              <label><input type="radio" name="q10" value="d"> Apple</label>
+            </div>
+          </div>
+    
+          <!-- question 10 -->
+        <button id="submitBtn">Next</button>
+        <br> <br>
+        <p id="alert"></p>
+        <div id="result">
+          <h2>Result</h2>
+          <p id="score"></p>
+          
+        </div>
+      </div>
+    <!-- quiz section  -->
+
+    <!-- review button  -->
+    <div class="container quizRevBtn">
+        <h2>I Would Really Appreciate Your Feedback, Leave A Review!</h2>
+        <a href="./review/index.php"><button>Write A Review</button></a>
+    </div>
+    <!-- review button  -->
+
+       <!-- Footer Section -->
+       <div class="footerSection">
+        <div class="footerInnerLinks">
+          <div class="footerInnerWrapper">
+            <div class="footerLinks">
+              
+            <div class="footerLinks">
+              <h2>Social Media</h2>
+              <a href="#">Instagram</a> <a href="/">Facebook</a>
+              <a href="#">Youtube</a> <a href="/">Twitter</a>
+            </div>
+          </div>
+        </div>
+        <section class="socialSection">
+          <div class="socialSectionInner">
+            <div class="footerLogo">
+              <a href="#" id="footerLogo"><i class="fas fa-robot">  </i>AI</a>
+            </div>
+            <p class="copyRight">© AI 2024. All rights reserved</p>
+            <div class="footerSocial">
+              <a class="footerSocialLinks" href="#" target="_blank" aria-label="Facebook" >
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a class="footerSocialLinks" href="#" target="_blank" aria-label="Instagram" >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a class="footerSocialLinks" href="#" target="_blank" aria-label="Youtube" >
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a class="footerSocialLinks" href="#" target="_blank" aria-label="Twitter" >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a class="footerSocialLinks" href="#" target="_blank" aria-label="LinkedIn" >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- Footer Section -->
+
+
+    <script src="app.js"></script>
+  </body>
+</html>

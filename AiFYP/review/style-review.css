@@ -1,0 +1,71 @@
+body{
+    background: #131313;
+}
+.containerNew {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #000;
+    color:  #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.containerNew h1, h2 {
+    text-align: center;
+}
+.containerNew ul {
+    list-style-type: none;
+    padding: 0;
+}
+.containerNew li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin:30px 0;
+    margin-bottom: 10px;
+}
+.containerNew form {
+    margin-top: 20px;
+}
+.containerNew label {
+    font-weight: bold;
+}
+.containerNew input[type="text"],
+textarea,
+input[type="number"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.containerNew input[type="submit"] {
+    background-color: #777CFF;
+    color: white;
+    font-size:20px;
+    cursor: pointer;
+}
+.containerNew input[type="submit"]:hover {
+    background-color: #777CFF;
+}
+.containerNew .rating {
+    unicode-bidi: bidi-override;
+    font-size: 30px;
+    color: gold;
+}
+.containerNew .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+
+@media screen and (max-width:767px) {
+    .containerNew{
+        width: 95%;
+    }
+}
